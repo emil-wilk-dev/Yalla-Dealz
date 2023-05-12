@@ -129,5 +129,8 @@ export default {
   },
   env: {
     baseUrl: process.env.baseURL || 'https://uae.yalladealz.com/api/'
+  },
+  nitro: {
+    preset: 'vercel-edge',
   }
 }
