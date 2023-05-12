@@ -132,5 +132,8 @@ export default {
   },
   nitro: {
     preset: 'vercel-edge',
+  },
+  generate: {
+    dir: 'public'
   }
 }

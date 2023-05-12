@@ -5,7 +5,7 @@
   "description": "Yalla Dealz Admin Portal UAE",
   "author": "Yalla Dealz Inc",
   "scripts": {
-    "build": "nuxt build && mv build dist",
+    "build": "nuxt build",
     "test:unit": "vue-cli-service test:unit",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "dev": "nuxt",
